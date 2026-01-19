@@ -1,4 +1,4 @@
-package com.compagny.petit_bonhomme.entity;
+package com.compagny.petit_bonhomme.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

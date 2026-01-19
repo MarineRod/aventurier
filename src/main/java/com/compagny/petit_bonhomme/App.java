@@ -1,8 +1,8 @@
 package com.compagny.petit_bonhomme;
 
-import com.compagny.petit_bonhomme.entity.Carte;
-import com.compagny.petit_bonhomme.entity.Personnage;
-import com.compagny.petit_bonhomme.entity.Position;
+import com.compagny.petit_bonhomme.domain.Carte;
+import com.compagny.petit_bonhomme.domain.Personnage;
+import com.compagny.petit_bonhomme.domain.Position;
 
 /**
  * Hello world!
