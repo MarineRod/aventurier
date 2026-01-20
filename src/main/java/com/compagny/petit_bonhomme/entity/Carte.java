@@ -1,4 +1,4 @@
-package com.compagny.petit_bonhomme.domain;
+package com.compagny.petit_bonhomme.entity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -22,21 +22,4 @@ public class Carte {
         this.largeur = grille[0].length;
     }
     
-    public boolean estDansLaCarte(int x, int y) {
-        return x >= 0 && y >= 0 && x < largeur && y < hauteur;
-    }
-
-    public boolean estLibre(int x, int y) {
-        return estDansLaCarte(x, y) && grille[y][x] == 0;
-    }
-
-
-    public void afficher() {
-        for (int y = 0; y < hauteur; y++) {
-            for (int x = 0; x < largeur; x++) {
-                System.out.print(grille[y][x] == 1 ? "#" : " ");
-            }
-            System.out.println();
-        }
-    }
 }
