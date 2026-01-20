@@ -119,7 +119,6 @@ public class PersonnageServiceTest {
 
 		Personnage personnage = new Personnage(3, 0);
 		String directions = "O";
-		when(carteHelperMock.estValide(carte, -1, 0)).thenReturn(false);
 		testedObject.deplacerDirections(personnage, directions, carte);
 		assertEquals(3, personnage.getX());
 		assertEquals(0, personnage.getY());

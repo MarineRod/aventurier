@@ -6,7 +6,7 @@ import com.compagny.petit_bonhomme.service.CarteHelper;
 import com.compagny.petit_bonhomme.service.PersonnageService;
 
 /**
- * Point d'entrée principal de l'application
+ * Lancement de l'application
  *
  * @author Marine Rodriguez
  * @version 1.0
